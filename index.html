@@ -11,10 +11,9 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#" aria-label="MTS Keys home">
-      <span class="brand-mark">MTS</span>
-      <span>KEYS</span>
+      <img class="brand-logo" src="images/mts-keys-logo.png" alt="MTS Keys">
     </a>
-    <a class="header-call" href="tel:+15555550100">Call now</a>
+    <a class="header-call" href="tel:+14148283129">Call now</a>
   </header>
 
   <main>
@@ -27,17 +26,18 @@
           for automotive locksmith service in <strong>[Your Service Area]</strong>.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="tel:+15555550100">Call MTS Keys</a>
+          <a class="button button-primary" href="tel:+14148283129">Call MTS Keys</a>
           <a class="button button-secondary" href="#services">Explore services</a>
         </div>
         <p class="availability">Call to ask about current availability.</p>
       </div>
+
       <div class="hero-card" aria-label="MTS Keys automotive locksmith">
         <div class="key-icon" aria-hidden="true">↗</div>
         <p class="card-label">MTS KEYS</p>
         <p class="card-title">Automotive<br>locksmith</p>
         <div class="card-line"></div>
-        <p class="card-note">Car keys • Lockouts • Programming</p>
+        <p class="card-note">Car keys · Lockouts · Programming</p>
       </div>
     </section>
 
@@ -50,7 +50,10 @@
     <section class="section" id="services">
       <p class="eyebrow">HOW WE CAN HELP</p>
       <h2>Services for your vehicle</h2>
-      <p class="section-intro">Tell us your vehicle’s make, model, and year when you call so we can discuss the right service.</p>
+      <p class="section-intro">
+        Tell us your vehicle’s make, model, and year when you call so we can
+        discuss the right service.
+      </p>
 
       <div class="service-grid">
         <article class="service-card">
@@ -58,11 +61,13 @@
           <h3>Car lockouts</h3>
           <p>Locked out? Call to discuss assistance with getting back into your vehicle.</p>
         </article>
+
         <article class="service-card">
           <span class="service-number">02</span>
           <h3>Car key replacement</h3>
           <p>Ask about replacement options for lost, damaged, or spare vehicle keys.</p>
         </article>
+
         <article class="service-card">
           <span class="service-number">03</span>
           <h3>Key programming</h3>
@@ -77,7 +82,41 @@
         <h2>Let’s figure out the next step.</h2>
         <p>Call MTS Keys with your vehicle details and location.</p>
       </div>
-      <a class="button button-light" href="tel:+15555550100">Call (555) 555-0100</a>
+      <a class="button button-light" href="tel:+14148283129">Call (555) 555-0100</a>
+    </section>
+
+    <section class="section callback" id="callback">
+      <p class="eyebrow">REQUEST A CALLBACK</p>
+      <h2>How can we reach you?</h2>
+      <p class="section-intro">
+        Leave your details and MTS Keys can get back to you.
+      </p>
+
+      <form class="callback-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+        <input type="hidden" name="subject" value="MTS Keys callback request">
+
+        <div class="spam-trap" aria-hidden="true">
+          <label for="botcheck">Leave this field empty</label>
+          <input id="botcheck" type="checkbox" name="botcheck" tabindex="-1">
+        </div>
+
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+
+        <label for="phone">Phone number</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+
+        <label for="vehicle">Vehicle make, model, and year</label>
+        <input id="vehicle" name="vehicle" type="text"
+               placeholder="For example, 2019 Honda Civic">
+
+        <label for="help">What do you need help with?</label>
+        <textarea id="help" name="help" rows="4"
+                  placeholder="For example, locked out or need a replacement key"></textarea>
+
+        <button class="button button-primary" type="submit">Request a callback</button>
+      </form>
     </section>
 
     <section class="section about">
@@ -94,12 +133,11 @@
   </main>
 
   <footer class="site-footer">
-    <a class="brand" href="#">
-      <span class="brand-mark">MTS</span>
-      <span>KEYS</span>
+    <a class="brand" href="#" aria-label="MTS Keys home">
+      <img class="brand-logo" src="images/mts-keys-logo.png" alt="MTS Keys">
     </a>
     <p>Automotive locksmith services · [Your Service Area]</p>
-    <a href="tel:+15555550100">(555) 555-0100</a>
+    <a href="tel:+14148283129">(555) 555-0100</a>
     <small>© <span id="year">2026</span> MTS Keys</small>
   </footer>
 
